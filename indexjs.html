@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Doctype declaration -->
+
+<html>
+    <!-- Start of html tag -->
+
+    <head>
+        <!-- Start of head tag -->
+        <title>My Form</title>
+        <!-- Defines the title of the Web Page -->
+       
+	   <script type="text/javascript" src="js/script.js"></script>
+	   <!-- Loads and runs the javascript code inside the file "script.js" -->
+	   
+    </head> <!-- End of head tag -->
+
+
+    <body> <!-- Start of body tag -->
+
+        <form> <!-- Start of a form -->
+            <table border="1"> <!-- Defines a table with a border of 1 -->
+                <tr> <!-- Defines a new row of the table -->
+                    
+                    <td>Name:</td> 
+                    <!-- Defines a new cell with a string -->
+                    <td><input type="text" name="name" id="name" onkeyup="register();" /></td>
+                    <!-- Defines a new cell as a input field identified by "name"
+                        that on key release will call register() function -->
+                    <td><div id="mname"></div></td>
+                    <!-- Defines a new cell with a division identified by "mname" -->
+                    
+                </tr> <!-- End of the row -->
+                <tr> <!-- Defines a new row of the table -->
+                    
+                    <td>Last Name:</td>
+                    <!-- Defines a new cell with a string -->
+                    <td><input type="text" name="lname" id="lname" onkeyup="register();" /></td>
+                    <!-- Defines a new cell as a input field identified by "lname"
+                        that on key release will call register() function -->
+                    <td><div id="mlname"></div></td>
+                    <!-- Defines a new cell with a division identified by "mlname" -->
+                    
+                </tr> <!-- End of the row -->
+                <tr> <!-- Defines a new row of the table -->
+                    
+                    <td>Email:</td>
+                    <!-- Defines a new cell with a string -->
+                    <td><input type="text" name="email" id="email" onkeyup="register();" /></td>
+                    <!-- Defines a new cell as a input field identified by "email"
+                        that on key release will call register() function -->
+                    <td><div id="memail"></div></td>
+                    <!-- Defines a new cell with a division identified by "memail" -->
+                    
+                </tr> <!-- End of the row -->
+                <tr> <!-- Defines a new row of the table -->
+                    
+                    <td>Password:</td>
+                    <!-- Defines a new cell with a string -->
+                    <td><input type="password" name="password" id="password" onkeyup="register();" /></td>
+                    <!-- Defines a new cell as a input field identified by "password"
+                        that on key release will call register() function -->
+                    <td><div id="mpassword"></div></td>
+                    <!-- Defines a new cell with a division identified by "mpassword" -->
+                    
+                </tr> <!-- End of the row -->
+                <tr> <!-- Defines a new row of the table -->
+                    
+                    <td>Confirm Password:</td>
+                    <!-- Defines a new cell with a string -->
+                    <td><input type="password" name="cpassword" id="cpassword" onkeyup="pass();" /></td>
+                    <!-- Defines a new cell as a input field identified by "cpassword"
+                        that on key release will call pass() function -->
+                    <td><div id="mcpassword"></div></td>
+                    <!-- Defines a new cell with a division identified by "mcpassword" -->
+                    
+                </tr> <!-- End of the row -->
+            </table> <!-- End of table -->
+            <br /> <!-- A break line -->
+            <input type="button" name="submit" value="submit" />
+            <!-- The definition of submit button -->
+
+        </form> <!-- End of form -->
+
+    </body> <!-- End of body tag -->
+
+</html> <!-- End of html tag -->
